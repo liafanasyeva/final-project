@@ -1,0 +1,212 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(157, 189, 82);
+}
+
+.pokeImg {
+    max-width: 300px;
+}
+
+@media (max-width: 565px) {
+    .pokeImg {
+        max-width: 350px;
+    }
+}
+
+.infoImg {
+    max-width: 400px;
+}
+
+.logo {
+    min-width: 40px;
+    height: auto;
+}
+
+.button-container {
+    font-size: 1.4rem;
+    background: transparent;
+    border-radius: 5px;
+    border: 0.10rem solid black;
+}
+
+.button-container:hover {
+    border: 0.10rem solid rgb(18, 14, 74);
+    background-color: blanchedalmond;
+}
+
+.navbar {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+
+a{
+    font-size: 1.5rem; 
+
+}
+
+.card{
+    margin: 30px;
+    border-color: transparent;
+    transition: all 1s linear;
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.537);
+}
+
+.cart:hover{
+    border: 0.04rem solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.cart-btn {
+    position: absolute;
+    padding: 0.2rem 0.4rem;
+    background: rgb(127, 158, 167);
+    border: none;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    transition: all 1s linear;
+    height: 50px;
+    width: 200px;
+    right: -20px;
+  }
+
+.cart:hover .cart-btn {
+    color: tomato;
+    transform: translate(1, 0);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Loader */
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.lds-roller {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
