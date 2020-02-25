@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Details from '../cards_inner/Details';
+import Details from '../content/Details';
 
 class PokeCard extends Component {
     constructor(props) {
